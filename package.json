@@ -1,0 +1,26 @@
+{
+  "name": "chatterbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "diet": "^0.16.0",
+    "diet-cookies": "^1.0.0",
+    "diet-static": "^2.2.0",
+    "mime": "^2.2.0",
+    "mime-db": "^1.33.0",
+    "mime-lookup": "0.0.2",
+    "mime-types": "^2.1.18",
+    "ws": "^5.1.0"
+  }
+}
